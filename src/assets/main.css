@@ -1,0 +1,38 @@
+nav {
+  background-color: #fff;
+}
+
+nav .nav-wrapper {
+  height: 18vh;
+  margin: 0 3vw;
+  line-height: 18vh;
+  display: block;
+}
+
+nav .nav-wrapper .nav__item {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav .nav-wrapper .nav__item:not(.brand-logo) {
+  float: right;
+}
+
+nav .nav-wrapper .nav__item.social {
+  margin-left: calc(5vw -  10px);
+}
+
+nav .nav-wrapper .nav__item.social a {
+  margin: 0 10px;
+}
+
+nav .nav-wrapper .nav__item img {
+  max-height: 5vh;
+  vertical-align: middle;
+}
+
+nav .nav-wrapper .nav__item-link {
+  display: inline-block;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=main.css.map */
