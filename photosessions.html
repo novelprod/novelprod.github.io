@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Font Awesome -->
+		<script src="https://kit.fontawesome.com/3cf9a24249.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="src/assets/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="src/assets/main.css">
+		<link rel="stylesheet" href="src/assets/ui.css">
+	</head>
+	<body>
+		
+		<nav>
+			<ul class="nav-wrapper">
+				<li class="nav__item brand-logo"><img src="src/assets/img/brand-logo.png" alt=""></li>
+				<li class="nav__item social">
+					<a href="#" class="nav__item-link social-link">
+						<i class="fab fa-vk"></i>
+					</a>
+					<a href="#" class="nav__item-link social-link">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</a></li>
+				<li class="nav__item"><a href="about_us.html" class="nav__item-link">О нас</a></li>
+				<li class="nav__item"><a href="concerts.html" class="nav__item-link">Концерты</a></li>
+				<li class="nav__item"><a href="video.html" class="nav__item-link">Видеоклипы</a></li>
+				<li class="nav__item"><a href="photosessions.html" class="nav__item-link active">Фотосессии</a></li>
+				<li class="nav__item"><a href="index.html" class="nav__item-link">Блог</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<div class="photosessions-section">
+				<div class="row">
+					<div class="col-md-3">
+						<img class="main-pic" src="src/assets/img/photosessions/1.jpg" alt="" class="main-pic">
+					</div>
+					<div class="col-md-3">
+						<img class="main-pic" src="src/assets/img/photosessions/2.jpg" alt="">
+					</div>
+					<div class="col-md-3">
+						<img src="src/assets/img/photosessions/3.jpg" alt="" class="main-pic">
+					</div>
+					<div class="col-md-3">
+						<img src="src/assets/img/photosessions/4.jpg" alt="" class="main-pic">
+					</div>
+					<div class="col-md-3">
+						<img class="main-pic" src="src/assets/img/photosessions/5.png" alt="" class="main-pic">
+					</div>
+					<div class="col-md-3">
+						<img class="main-pic" src="src/assets/img/photosessions/6.jpg" alt="">
+					</div>
+					<div class="col-md-3">
+						<img src="src/assets/img/photosessions/7.jpg" alt="" class="main-pic">
+					</div>
+					<div class="col-md-3">
+						<img src="src/assets/img/photosessions/8.jpg" alt="" class="main-pic">
+					</div>
+					<div class="col-md-3">
+						<img class="main-pic" src="src/assets/img/photosessions/9.jpg" alt="" class="main-pic">
+					</div>
+					<div class="col-md-3">
+						<img class="main-pic" src="src/assets/img/photosessions/10.jpg" alt="">
+					</div>
+					<div class="col-md-3">
+						<img src="src/assets/img/photosessions/11.jpg" alt="" class="main-pic">
+					</div>
+					<div class="col-md-3">
+						<img src="src/assets/img/photosessions/12.png" alt="" class="main-pic">
+					</div>
+				</div>
+			</div>
+		</main>
+		
+		<footer>
+			
+		</footer>
+
+		<style type="text/css">
+			#hellopreloader_preload{
+				display: block;
+				position: fixed;
+				z-index: 99999;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				min-width: 1000px;
+				background: #000 url("src/assets/img/brand-logo.png") center center no-repeat;
+				background-size:41px;
+			}
+			</style>
+			<div id="hellopreloader">
+				<div id="hellopreloader_preload"></div>
+			</div>
+			<script type="text/javascript">
+			var hellopreloader = document.getElementById("hellopreloader_preload");
+			
+			function fadeOutnojquery(el) {
+				el.style.opacity = 1;
+				var interhellopreloader = setInterval(function() {
+					el.style.opacity = el.style.opacity - 0.05;
+					if (el.style.opacity <= 0.05) {
+						clearInterval(interhellopreloader);
+						hellopreloader.style.display = "none";
+					}
+				}, 16);
+			}
+			window.onload = function() {
+				setTimeout(function() {
+					fadeOutnojquery(hellopreloader);
+				}, 1000);
+			};
+			</script>
+	</body>
+</html>
