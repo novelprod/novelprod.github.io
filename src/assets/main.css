@@ -35,4 +35,8 @@ nav .nav-wrapper .nav__item-link {
   display: inline-block;
   text-transform: uppercase;
 }
+
+nav .nav-wrapper .nav__item-link:hover {
+  opacity: 0.8;
+}
 /*# sourceMappingURL=main.css.map */

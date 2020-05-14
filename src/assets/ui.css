@@ -27,6 +27,14 @@ body img.main-pic:hover {
   opacity: 0.5;
 }
 
+body .right {
+  text-align: right;
+}
+
+body .left {
+  text-align: left;
+}
+
 body .active {
   color: #ffbc80;
 }
@@ -45,6 +53,7 @@ body .col-md-6 {
 body .row {
   padding: 0;
   margin: 0;
+  text-align: center;
 }
 
 body .title {
@@ -55,5 +64,19 @@ body .title {
 
 body .video {
   text-align: center;
+}
+
+body .person_name {
+  color: #ffbc80;
+  font-size: 2.5rem;
+}
+
+body .person_info {
+  font-size: 0.9rem;
+}
+
+body .person_text {
+  margin-top: 10vh;
+  font-size: 1.1rem;
 }
 /*# sourceMappingURL=ui.css.map */
