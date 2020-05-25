@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0 1vw;
   overflow-y: scroll;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 body ul {
@@ -69,6 +70,7 @@ body .video {
 body .person_name {
   color: #ffbc80;
   font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 body .person_info {
