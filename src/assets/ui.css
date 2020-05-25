@@ -1,4 +1,4 @@
-body {
+html, body {
   background: #fff;
   padding: 0;
   margin: 0 1vw;
@@ -6,78 +6,78 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-body ul {
+html ul, body ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-body a {
+html a, body a {
   text-decoration: none;
   color: inherit;
 }
 
-body img.main-pic {
+html img.main-pic, body img.main-pic {
   width: 100%;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   opacity: 1;
 }
 
-body img.main-pic:hover {
+html img.main-pic:hover, body img.main-pic:hover {
   opacity: 0.5;
 }
 
-body .right {
+html .right, body .right {
   text-align: right;
 }
 
-body .left {
+html .left, body .left {
   text-align: left;
 }
 
-body .active {
+html .active, body .active {
   color: #ffbc80;
 }
 
-body .col-md-3 {
+html .col-md-3, body .col-md-3 {
   display: inherit;
   max-width: calc(25% - 10px);
   padding: 0;
   margin: 5px;
 }
 
-body .col-md-6 {
+html .col-md-6, body .col-md-6 {
   text-align: center;
 }
 
-body .row {
+html .row, body .row {
   padding: 0;
   margin: 0;
   text-align: center;
 }
 
-body .title {
+html .title, body .title {
   text-align: center;
   text-transform: uppercase;
   margin: 60px 0 40px 0;
 }
 
-body .video {
+html .video, body .video {
   text-align: center;
 }
 
-body .person_name {
+html .person_name, body .person_name {
   color: #ffbc80;
   font-size: 2.5rem;
   font-family: 'Ubuntu', sans-serif;
 }
 
-body .person_info {
+html .person_info, body .person_info {
   font-size: 0.9rem;
 }
 
-body .person_text {
+html .person_text, body .person_text {
   margin-top: 10vh;
   font-size: 1.1rem;
 }
